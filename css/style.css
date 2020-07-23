@@ -289,3 +289,26 @@
 .ml-2vh {
   margin-left: 2vh;
 }
+
+.m-top-bottom-5vh {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+/* footer */
+
+.footer-container {
+  background-color: #222;
+  color: #fff;
+}
+
+.footer-container__author {
+  height: 26px;
+}
+
+.footer-container__workspase {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 36px;
+}
