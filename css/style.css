@@ -133,12 +133,6 @@
   background-color: #11749e;
 }
 
-.info-container__content {
-  margin: 12vh 0;
-  color: #ffffff;
-  text-align: center;
-}
-
 .section-title {
   color: #ffffff;
   font-family: Gotham;
@@ -209,7 +203,6 @@
   background: url('../assets/form-background.png') no-repeat center top fixed;
 }
 
-/* merge with info-container */
 .container {
   margin: 18vh 0;
   color: #ffffff;
