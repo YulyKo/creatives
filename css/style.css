@@ -127,8 +127,78 @@
   height: 18px;
 }
 
-@media (min-width: 1200px) {
-  .container-lg {
-    max-width: 1600px;
-  }
+/* info section */
+
+.info-container {
+  background-color: #11749e;
+}
+
+.info-container__content {
+  margin: 12vh 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-top: 3vh;
+  margin-bottom: 17vh;
+}
+
+.section-title:before {
+  content: "W";
+  width: 185px;
+  height: 176px;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  left: 50%;
+  top: 10%;
+  opacity: 0.18;
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 247px;
+  font-weight: 700;
+  line-height: 210.64px;
+}
+
+.info-item__icon {
+  width: 133px;
+  height: 133px;
+  margin: 0 auto;
+  padding-top: 5.5vh;
+  background-color: #2e85aa;
+  border-radius: 50%;
+  -webkit-padding-before: 5.5vh;
+}
+
+.info-item__icon_picture {
+  width: 35px;
+}
+
+.item__title {
+  margin-top: 2.7vh;
+  margin-bottom: 4vh;
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.item__text {
+  max-width: 258px;
+  margin: 0 auto;
+  display: inline-block;
+  font-family: "Gotham Book";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: justify;
+  line-height: 24px;
+  word-spacing: 3px;
+  color: #ffffff;
 }
